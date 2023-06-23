@@ -86,3 +86,150 @@ a{
 .img_sigmature{
     width: 20%;
 }
+.skills,.hobbies{
+    color: aliceblue;
+    margin: 10% 10% ;
+    display: flex;
+    flex-direction: column;
+}
+.skills_titulo,.hobbies_titulo,.experiencia_section_titulo{
+    text-align: center;
+    font-size:32px;
+    font-weight: bolder;
+    padding-bottom: 5%;
+}
+.skills_line,.hobbies_line{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 20px; 
+   
+}
+
+.skills_box_list,.hobbies_box_list{
+    display: flex;
+    width: 118px;
+    height: 118px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background: #070976;
+    gap: 8px;
+    padding: 16px;
+    font-weight: bolder;
+}
+.formacion_formacion_academica{
+    background-color: #090d45;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10% 10%;
+    color: aliceblue;
+}
+.formacion_academica_titulo{
+    text-align: center;
+    font-size:32px;
+    font-weight: bolder;
+    padding: 5% 0;
+}
+.formacion_academica_cursos{
+    display: flex;
+    justify-content: space-around;
+}
+.formacion_academica_cursos_item_img{
+    background: #070976;
+    width: 190px;
+    height: 140px;
+    padding: 30px;
+    align-items: baseline;
+    box-shadow: 0px 0px 25px #222;
+    
+}
+.formacion_academica_cursos_item_titulo{
+    font-weight: bolder;
+    margin-bottom: 2%;
+}
+.experiencia_profecional{
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    padding:  10% 10%;
+}
+
+.experiencia_box{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 5%;
+    align-items: center;
+
+}
+.experiencia_img2{
+    order: 1;
+}
+.experiencia_info{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    
+}
+.experiencia_titulo{
+    font-weight: bolder;
+    
+}
+.experiencia_description{
+    display: flex;
+    gap: 16px;
+}
+.experiencia_boton-repo{
+    border: 3px solid #0099CC;
+    color: #0099CC;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: bolder;
+    width: 125px;
+    height: 55px;
+}
+.experiencia_boton-demo{
+    border: none;
+    background: #0099CC;
+    color: aliceblue;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: bolder;
+    width: 125px;
+    height: 55px;
+}
+.formcontato_contacto{
+    display: flex;
+    padding:  10% 10%;
+    color: aliceblue;
+    background-color:#060846 ;
+    gap: 16px;
+}
+.formcontato_titulo{    
+    font-size:32px;
+    font-weight: bolder;
+    padding-bottom: 2%;
+}
+.formcontato_form{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10%;
+    gap: 32px;
+}
+.formcontato_enviar{
+    border: none;
+    background: #0099CC;
+    color: aliceblue;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: bolder;
+    width: 170px;
+    
+}
+.footer_rodapie{
+    display: flex;
+    color: aliceblue;
+    flex-direction: column;
+    align-items: center;
+    margin: 5% 0;
+}
