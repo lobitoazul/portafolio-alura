@@ -17,6 +17,7 @@ a{
     margin: 2% 10% 10% 4%;
 
 }
+
 .menu_imagen{
     position: relative;
     top: 5px;
@@ -34,6 +35,10 @@ a{
 .menu_lista_item{
     margin: 0 0 0 2%;
 }
+.menu_lista_item:hover{
+    text-decoration:underline
+   
+}
 #menu_lista_item_correo{
     font-weight: bolder;
 }
@@ -48,6 +53,7 @@ a{
     position: relative;
     bottom: 40px;
     order: 1;
+    border-radius: 50%;
 }
 .titulo_bio{
     font-size:50px;
@@ -68,6 +74,7 @@ a{
 .titulo_network_item{
     margin: 0 4% 0 0;
 }
+.titulo_network_item:hover{text-decoration:underline}
 .sobre_mi_container{
     background-color: #090d45;
     color:aliceblue;
@@ -232,4 +239,36 @@ a{
     flex-direction: column;
     align-items: center;
     margin: 5% 0;
+}
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+}
+
+
+
+
+/*Mobile*/
+@media (max-width: 768px) {
+
+.menu,.menu_lista,.titulo_network,.titulo_div,.skills,.skills_line,.hobbies,.hobbies_line,.formacion_academica_cursos,.experiencia_profecional,.experiencia_box,.formcontato_contacto,.footer_rodapie{
+    flex-direction: column;
+    
+}
+.menu,.menu_lista,.skills,.hobbies,.formacion_academica_cursos{
+    align-items: center;
+}
+.titulo_profile{
+    margin-top: 20px;
+}
+.formcontato_enviar{
+    align-self: center;
+}
+.experiencia_img,.experiencia_img2,.formcontato_img{
+width: 100%;
+order: 0;
+}
+
+
 }
